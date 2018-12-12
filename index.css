@@ -167,6 +167,81 @@ a:active {
   background-color: #637E97;
 }
 
+#section-photos .card {
+  overflow: hidden;
+}
+
+#section-photos .card img {
+  position: absolute;
+  right: -50%;
+}
+
+#sasha-doll-photo {
+  right: -44% !important;
+  top: -2% !important;
+}
+
+#evan-hands-photo {
+
+}
+
+#tanya-taylor-photo {
+
+}
+
+#abi-flower-photo {
+
+}
+
+#yuna-coat-photo {
+
+}
+
+#mackenzie-diner-photo {
+  top: -25px !important;
+  right: -57% !important;
+}
+
+#mackenzie-couch-photo {
+  right: -86% !important;
+}
+
+#emily-ballet-photo {
+  top: -28px !important;
+  right: -59% !important;
+}
+
+#karla-fish-photo {
+  top: -47px !important;
+  right: -75% !important;
+}
+
+#melissa-ballet-photo {
+  top: -81px !important;
+}
+
+#evan-paint-photo {
+  top: -28px !important;
+}
+
+#boy-boat-photo {
+  top: -57px !important;
+}
+
+#terri-dance-photo {
+  top: -57px !important;
+  right: -79% !important;
+}
+
+#ladybug-hair-photo {
+  right: -78% !important;
+  top: -15px !important;
+}
+
+#sabrina-bird-photo {
+  right: -48% !important;
+}
+
 .welcome-blurb {
   padding: 1em;
   border-radius: 5px;
