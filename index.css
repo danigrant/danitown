@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  box-shadow: rgb(228, 228, 228) 0px 1px 2px;
+  top: 0;
+
+}
+
+.logo-image-frame {
+  border-radius: 50px;
+  background: #F7ECEC;
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.logo-image-frame img {
+  display: inline;
+  width: 50px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
