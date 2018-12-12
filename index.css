@@ -67,8 +67,22 @@ a:active {
   margin: 0 auto;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
 .card {
   background-color: #EEEEEE;
   border-radius: 5px;
   box-shadow: 0 10px 25px 0 rgba(45,49,50,.2);
+  flex-grow: 1;
+	width: 25%;
+  min-width: 250px;
+  max-width: 400px;
+	height: 250px;
+  margin: 30px;
 }
