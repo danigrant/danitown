@@ -26,17 +26,17 @@ a:active {
 }
 
 .logo-image-frame {
-  border-radius: 50px;
+  border-radius: 150px;
   background: #F7ECEC;
-  width: 75px;
-  height: 75px;
+  width: 175px;
+  height: 175px;
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 150px;
 }
 
 .logo-image-frame img {
   display: inline;
-  width: 50px;
+  width: 150px;
   position: relative;
   top: 10px;
   left: 10px;
@@ -44,7 +44,7 @@ a:active {
 
 .logo h1 {
   text-align: center;
-  font-size: 18px;
+  font-size: 40px;
   margin-top: 20px;
 }
 
@@ -62,7 +62,7 @@ a:active {
 
 .container {
   position: relative;
-  top: 150px;
+  top: 500px;
   width: 65%;
   margin: 0 auto;
   margin: 0 auto;
@@ -165,4 +165,12 @@ a:active {
 
 #section-blog-posts .card {
   background-color: #637E97;
+}
+
+hr {
+  position: relative;
+  top: 450px;
+  background-color: #f3f3f3;
+  height: 3px;
+  border: none;
 }
