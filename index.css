@@ -44,7 +44,8 @@ a:active {
 
 .logo h1 {
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 .menu-nav {
@@ -61,8 +62,8 @@ a:active {
 
 .container {
   position: relative;
-  top: 120px;
-  width: 75%;
+  top: 150px;
+  width: 65%;
   margin: 0 auto;
   margin: 0 auto;
 }
@@ -72,11 +73,11 @@ a:active {
   flex-wrap: wrap;
   align-content: center;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card {
-  background-color: #EEEEEE;
+  background-color: #102D48;
   border-radius: 5px;
   box-shadow: 0 10px 25px 0 rgba(45,49,50,.2);
   flex-grow: 1;
@@ -85,4 +86,66 @@ a:active {
   max-width: 400px;
 	height: 250px;
   margin: 30px;
+  position: relative;
+  transition:0.3s;
+}
+
+.card-title {
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.card-desc {
+  color: white;
+  position: absolute;
+  top: 75px;
+  font-size: 18px;
+  left: 20px;
+}
+
+.card-date {
+  color: #D9D9D9;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-size: 12px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transform-origin: center;
+  box-shadow: 0 10px 25px 0 rgba(45,49,50,.6);
+}
+
+.section h2 {
+  margin-left: 30px;
+}
+
+#section-projects .cards a:nth-child(1) .card {
+  background: linear-gradient(180deg, #92CBFF 0%, #2391F6 100%);
+}
+
+#section-projects .cards a:nth-child(2) .card {
+  background: linear-gradient(180deg, #FFC530 0%, #E4A400 100%);
+}
+
+#section-projects .cards a:nth-child(3) .card {
+  background: linear-gradient(180deg, #D7B2FD 0%, #9061DE 100%);
+}
+
+#section-projects .cards a:nth-child(4) .card {
+  background: linear-gradient(180deg, #55EB9A 0%, #3DBA76 100%);
+}
+
+#section-projects .cards a:nth-child(5) .card {
+  background: linear-gradient(180deg, #FDC1C1 0%, #F27171 100%);
+}
+
+#section-projects .cards a:nth-child(6) .card {
+  background: linear-gradient(180deg, #92CBFF 0%, #2391F6 100%);
 }
