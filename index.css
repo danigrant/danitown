@@ -77,7 +77,6 @@ a:active {
 }
 
 .card {
-  background-color: #102D48;
   border-radius: 5px;
   box-shadow: 0 10px 25px 0 rgba(45,49,50,.2);
   flex-grow: 1;
@@ -97,6 +96,7 @@ a:active {
   position: absolute;
   left: 20px;
   top: 10px;
+  margin-right: 20px;
 }
 
 .card-desc {
@@ -105,6 +105,7 @@ a:active {
   top: 75px;
   font-size: 18px;
   left: 20px;
+  margin-right: 20px;
 }
 
 .card-date {
@@ -149,4 +150,19 @@ a:active {
 
 #section-projects .cards a:nth-child(6) .card {
   background: linear-gradient(180deg, #92CBFF 0%, #2391F6 100%);
+}
+
+#section-cloudflare-projects img, #section-blog-posts img {
+  width: 30px;
+  position: absolute;
+  bottom: 11px;
+  left: 11px;
+}
+
+#section-cloudflare-projects .card {
+  background-color: #1a5286;
+}
+
+#section-blog-posts .card {
+  background-color: #637E97;
 }
