@@ -120,6 +120,7 @@ a:active {
   transform: scale(1.1);
   transform-origin: center;
   box-shadow: 0 10px 25px 0 rgba(45,49,50,.6);
+  filter: brightness(115%);
 }
 
 .section h2 {
