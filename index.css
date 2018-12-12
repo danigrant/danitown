@@ -73,7 +73,7 @@ a:active {
   flex-wrap: wrap;
   align-content: center;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card {
@@ -167,10 +167,54 @@ a:active {
   background-color: #637E97;
 }
 
+.welcome-blurb {
+  padding: 1em;
+  border-radius: 5px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  position: relative;
+  top: 425px;
+  text-align: center;
+}
+
 hr {
   position: relative;
   top: 450px;
   background-color: #f3f3f3;
   height: 3px;
   border: none;
+}
+
+@media only screen and (max-width: 1430px) {
+  .container {
+    width: 85%;
+  }
+
+  .card {
+    min-width: 230px;
+    margin: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+
+  .logo h1 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .logo-image-frame {
+    margin-top: 100px;
+  }
+
+  .cards {
+    align-items: center;
+  justify-content: center;
+  }
 }
