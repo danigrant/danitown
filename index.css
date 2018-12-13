@@ -178,7 +178,7 @@ a:active {
 }
 
 #section-talks .card {
-  background-color: #70b9f5; 
+  background-color: #70b9f5;
 }
 
 #section-photos .card {
@@ -282,6 +282,26 @@ hr {
   border: none;
 }
 
+#back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: #f3f3f3;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 32px;
+  display: none;
+}
+
+#back-to-top-button img {
+  width: 64px;
+}
+
+.show {
+  display: inline-block !important;
+}
+
 @media only screen and (max-width: 900px) {
   .container {
     width: 85%;
@@ -291,6 +311,9 @@ hr {
     width: 100%;
     min-width: 190px;
   }
+  .show {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -299,6 +322,9 @@ hr {
   }
   .welcome-blurb {
     margin-top: 50px;
+  }
+  .show {
+    display: none !important;
   }
 }
 
