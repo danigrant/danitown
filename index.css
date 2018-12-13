@@ -199,9 +199,9 @@ a:active {
   right: -50%;
 }
 
-#sasha-doll-photo {
-  right: -44% !important;
-  top: -2% !important;
+#tara-photo {
+  top: -18px !important;
+  right: -45% !important;
 }
 
 #evan-hands-photo {
@@ -263,6 +263,21 @@ a:active {
 
 #sabrina-bird-photo {
   right: -48% !important;
+}
+
+#nyfw-closeup-tome-photo {
+  right: -57% !important;
+  top: -55px !important;
+}
+
+#annak-nyfw-photo {
+  top: -20px !important;
+  right: -61% !important;
+}
+
+#tanya-makeup-photo {
+  right: -37% !important;
+  top: -25px !important;
 }
 
 .welcome-blurb {
