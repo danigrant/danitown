@@ -6,7 +6,4 @@ $(window).on('scroll', function(){
 	if((scrollAmount > (windowHeight * 2)) && !$('#back-to-top-button').hasClass('show')) {
     $('#back-to-top-button').addClass('show');
   }
-  if (scrollAmount < windowHeight * 2) {
-    $('#back-to-top-button').removeClass('show');
-  }
 });
