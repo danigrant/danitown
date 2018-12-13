@@ -31,7 +31,7 @@ a:active {
   width: 175px;
   height: 175px;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 125px;
 }
 
 .logo-image-frame img {
@@ -50,10 +50,18 @@ a:active {
 
 .menu-nav {
   position: absolute;
-  top: 20px;
+  top: 16px;
   right: 20px;
-  font-size: 12px;
+  font-size: 16px;
   color: #8C8C8C;
+}
+
+.menu-nav a:nth-child(1) {
+  background-color: #c5c5c5;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
 }
 
 .menu-nav a {
@@ -63,7 +71,7 @@ a:active {
 .container {
   position: relative;
   top: 500px;
-  width: 65%;
+  width: 900px;
   margin: 0 auto;
   margin: 0 auto;
 }
@@ -80,11 +88,13 @@ a:active {
   border-radius: 5px;
   box-shadow: 0 10px 25px 0 rgba(45,49,50,.2);
   flex-grow: 1;
-	width: 25%;
+	width: 275px;
   min-width: 250px;
   max-width: 400px;
 	height: 250px;
-  margin: 30px;
+  margin-bottom: 30px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
   position: relative;
   transition:0.3s;
 }
@@ -167,6 +177,10 @@ a:active {
   background-color: #637E97;
 }
 
+#section-talks .card {
+  background-color: #70b9f5; 
+}
+
 #section-photos .card {
   overflow: hidden;
 }
@@ -243,14 +257,21 @@ a:active {
 }
 
 .welcome-blurb {
-  padding: 1em;
+  padding: 2em;
   border-radius: 5px;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
-  background-color: #f1f1f1;
+  background-color: #f3f3f3;
   position: relative;
-  top: 425px;
+  top: 405px;
   text-align: center;
+  line-height: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.welcome-blurb a {
+  color: #2fa6ff;
 }
 
 hr {
@@ -261,7 +282,27 @@ hr {
   border: none;
 }
 
-@media only screen and (max-width: 1430px) {
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 85%;
+  }
+
+  .card {
+    width: 100%;
+    min-width: 190px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+
+  }
+  .welcome-blurb {
+    margin-top: 50px;
+  }
+}
+
+/* @media only screen and (max-width: 1430px) {
   .container {
     width: 85%;
   }
@@ -290,6 +331,6 @@ hr {
 
   .cards {
     align-items: center;
-  justify-content: center;
+    justify-content: center;
   }
-}
+} */
