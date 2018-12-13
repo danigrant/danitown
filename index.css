@@ -138,6 +138,15 @@ a:active {
   margin-left: 30px;
 }
 
+.section h3 {
+  color: #afb6b9;
+  margin-left: 30px;
+  position: relative;
+  top: -15px;
+  right: -27px;
+  font-size: 14px;
+}
+
 #section-projects .cards a:nth-child(1) .card {
   background: linear-gradient(180deg, #92CBFF 0%, #2391F6 100%);
 }
