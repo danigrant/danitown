@@ -352,22 +352,7 @@ hr {
   }
 }
 
-/* @media only screen and (max-width: 1430px) {
-  .container {
-    width: 85%;
-  }
-
-  .card {
-    min-width: 230px;
-    margin: 20px;
-  }
-
-}
-
 @media only screen and (max-width: 600px) {
-  .container {
-    width: 80%;
-  }
 
   .logo h1 {
     width: 80%;
@@ -375,12 +360,13 @@ hr {
     margin-top: 20px;
   }
 
+  .welcome-blurb {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+
   .logo-image-frame {
     margin-top: 100px;
   }
 
-  .cards {
-    align-items: center;
-    justify-content: center;
-  }
-} */
+}
