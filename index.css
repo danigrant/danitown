@@ -200,22 +200,6 @@ a:active {
   right: -45% !important;
 }
 
-#evan-hands-photo {
-
-}
-
-#tanya-taylor-photo {
-
-}
-
-#abi-flower-photo {
-
-}
-
-#yuna-coat-photo {
-
-}
-
 #mackenzie-diner-photo {
   top: -25px !important;
   right: -57% !important;
@@ -274,6 +258,20 @@ a:active {
 #nyfw-annak-closeup-photo {
   top: -51px !important;
   right: -46% !important;
+}
+
+#nyfw-yuna-bookladder {
+  top: -61px !important;
+  right: -190px !important;
+}
+
+#nyfw-yuna-booklean {
+  right: -200px !important;
+}
+
+#nyfw-yuna-glass {
+  right: -125px !important;
+  top: -25px !important;
 }
 
 .welcome-blurb {
