@@ -147,23 +147,23 @@ a:active {
   font-size: 14px;
 }
 
-#section-projects .cards a:nth-child(1) .card, #section-projects .cards a:nth-child(6) .card, #section-projects .cards a:nth-child(11) .card {
+#section-projects .cards a:nth-child(1) .card, #section-projects .cards a:nth-child(6) .card, #section-projects .cards a:nth-child(11) .card, #section-projects .cards a:nth-child(16) .card, #section-projects .cards a:nth-child(21) .card, #section-projects .cards a:nth-child(26) .card {
   background: linear-gradient(180deg, #92CBFF 0%, #2391F6 100%);
 }
 
-#section-projects .cards a:nth-child(2) .card, #section-projects .cards a:nth-child(7) .card, #section-projects .cards a:nth-child(12) .card {
+#section-projects .cards a:nth-child(2) .card, #section-projects .cards a:nth-child(7) .card, #section-projects .cards a:nth-child(12) .card, #section-projects .cards a:nth-child(17) .card, #section-projects .cards a:nth-child(22) .card, #section-projects .cards a:nth-child(27) .card {
   background: linear-gradient(180deg, #FFC530 0%, #E4A400 100%);
 }
 
-#section-projects .cards a:nth-child(3) .card, #section-projects .cards a:nth-child(8) .card, #section-projects .cards a:nth-child(13) .card {
+#section-projects .cards a:nth-child(3) .card, #section-projects .cards a:nth-child(8) .card, #section-projects .cards a:nth-child(13) .card, #section-projects .cards a:nth-child(18) .card, #section-projects .cards a:nth-child(23) .card, #section-projects .cards a:nth-child(28) .card {
   background: linear-gradient(180deg, #D7B2FD 0%, #9061DE 100%);
 }
 
-#section-projects .cards a:nth-child(4) .card, #section-projects .cards a:nth-child(9) .card, #section-projects .cards a:nth-child(14) .card {
+#section-projects .cards a:nth-child(4) .card, #section-projects .cards a:nth-child(9) .card, #section-projects .cards a:nth-child(14) .card, #section-projects .cards a:nth-child(19) .card, #section-projects .cards a:nth-child(24) .card, #section-projects .cards a:nth-child(29) .card {
   background: linear-gradient(180deg, #55EB9A 0%, #3DBA76 100%);
 }
 
-#section-projects .cards a:nth-child(5) .card, #section-projects .cards a:nth-child(10) .card, #section-projects .cards a:nth-child(15) .card {
+#section-projects .cards a:nth-child(5) .card, #section-projects .cards a:nth-child(10) .card, #section-projects .cards a:nth-child(15) .card, #section-projects .cards a:nth-child(20) .card, #section-projects .cards a:nth-child(25) .card, #section-projects .cards a:nth-child(30) .card {
   background: linear-gradient(180deg, #FDC1C1 0%, #F27171 100%);
 }
 
