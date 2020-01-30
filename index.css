@@ -20,7 +20,6 @@ a:active {
   position: absolute;
   width: 100%;
   height: 50px;
-  box-shadow: rgb(228, 228, 228) 0px 1px 2px;
   top: 0;
 
 }
@@ -53,11 +52,12 @@ a:active {
   top: 16px;
   right: 20px;
   font-size: 16px;
-  color: #8C8C8C;
+  color: #6078ff;
+  font-weight: bold;
 }
 
 .menu-nav a:nth-child(1) {
-  background-color: #c5c5c5;
+  background-color: #6078ff;
   border-radius: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -66,6 +66,7 @@ a:active {
 
 .menu-nav a {
   padding: 5px;
+  padding-left: 15px;
 }
 
 .container {
@@ -198,80 +199,6 @@ a:active {
 #tara-photo {
   top: -18px !important;
   right: -45% !important;
-}
-
-#mackenzie-diner-photo {
-  top: -25px !important;
-  right: -57% !important;
-}
-
-#mackenzie-couch-photo {
-  right: -81% !important;
-}
-
-#emily-ballet-photo {
-  top: -28px !important;
-  right: -59% !important;
-}
-
-#karla-fish-photo {
-  top: -47px !important;
-  right: -75% !important;
-}
-
-#melissa-ballet-photo {
-  top: -81px !important;
-}
-
-#evan-paint-photo {
-  top: -28px !important;
-}
-
-#boy-boat-photo {
-  top: -57px !important;
-}
-
-#terri-dance-photo {
-  top: -57px !important;
-  right: -79% !important;
-}
-
-#ladybug-hair-photo {
-  right: -78% !important;
-  top: -15px !important;
-}
-
-#sabrina-bird-photo {
-  right: -48% !important;
-}
-
-#nyfw-closeup-tome-photo {
-  right: -57% !important;
-  top: -55px !important;
-}
-
-#annak-nyfw-photo {
-  top: -20px !important;
-  right: -61% !important;
-}
-
-#nyfw-annak-closeup-photo {
-  top: -51px !important;
-  right: -46% !important;
-}
-
-#nyfw-yuna-bookladder {
-  top: -61px !important;
-  right: -190px !important;
-}
-
-#nyfw-yuna-booklean {
-  right: -200px !important;
-}
-
-#nyfw-yuna-glass {
-  right: -125px !important;
-  top: -25px !important;
 }
 
 .welcome-blurb {
