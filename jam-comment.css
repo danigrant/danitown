@@ -1,0 +1,50 @@
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+    z-index: 1000000;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .comment-header {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+  }
+  
+  .comment-avatar {
+    align-content: flex-start;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .comment-author {
+    align-self: center;
+    color: #33363A;
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  
+  .comment-time {
+    align-self: center;
+    color: #D8D8D8;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .comment-message {
+    color: #33363A;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+  }
+  
+  .comment-message .DraftEditor-root {
+    padding: 0;
+  }

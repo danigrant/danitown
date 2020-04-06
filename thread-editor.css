@@ -1,0 +1,53 @@
+.thread-editor-container {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: -webkit-fill-available;
+    font-size: 14px;
+    z-index: 1000000;
+  }
+  
+  .thread-editor-container:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #EAEAEA; 
+    font-size: 14px;
+  }
+  
+  .thread-editor-textarea {
+    background: #fff;
+    border: 1px solid #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    resize: none;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 18px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+  }
+  
+  .thread-editor-textarea:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+  }
+  
+  .thread-editor-send-button {
+    justify-content: end;
+    padding-right: 10px;
+  }
+  
+  .thread-editor-send-button:hover {
+    cursor: pointer;
+  }
+
+  .reaction-avatar {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
