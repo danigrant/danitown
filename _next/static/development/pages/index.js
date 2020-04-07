@@ -63329,7 +63329,7 @@ __webpack_require__.r(__webpack_exports__);
 var API_HOSTNAME = "http://localhost:3000";
 var JAM_ID = "useful-chickadee-4748"; // letsjam.xyz
 // export const API_HOSTNAME = "https://app.letsjam.xyz"  
-// export const JAM_ID = "blind-goose-8088" // bitmojis
+// export const JAM_ID = "smoggy-chickadee-1415" // bitmojis
 //"swift-zombie-845" // for letsjam.xyz
 // for testing "useful-chickadee-4748" // mayor@dani.town is included using the dani.town email domain
 // ddanigrant has access directly "active-fly-4236"
