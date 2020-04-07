@@ -47,6 +47,16 @@
     font-size: 14px;
     margin-left: 15px;
   }
+
+  .thread-header-drag {
+    width: 15px;
+    height: 15px;
+    opacity: 0.8;
+    background: #fbfbfb;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
   
   .thread-header-resolve-button {
     align-content: flex-end;
@@ -56,6 +66,12 @@
   .thread-header-resolve-button:hover {
     cursor: pointer;
     background: #f8f9fb;
+  }
+
+  .thread-header-right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   
   .thread-message {
